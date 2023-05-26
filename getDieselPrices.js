@@ -1,7 +1,7 @@
 const axios = require("axios");
 require("dotenv").config();
-// Config for the headers and the URL for the API (souce: Rapid API)
 
+// Config for the headers and the URL for the API 
 const options = {
   method: "GET",
   url: process.env.URL,
